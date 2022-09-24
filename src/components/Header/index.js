@@ -16,7 +16,7 @@ export default function Header() {
 
   const [menuPopup, setMenuPopup] = useState(false);
 
-  const [activeTab, setActiveTab] = useLocalStorage('tab', 0);
+  const [activeTab, setActiveTab] = useLocalStorage('tab', 20);
 
   const [activeTabName, setActiveTabName, activeTabNameRemove] = useLocalStorage('tabname', "home");
 
