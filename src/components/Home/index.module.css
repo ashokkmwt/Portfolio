@@ -1,0 +1,205 @@
+.HomeContainer {
+    width: 100%;
+    color: #FFFFFF;
+    position: relative;
+}
+
+._line {
+    width: 128px;
+    height: 5px;
+    margin-top: 101px;
+    background: #D07C43;
+}
+
+._detailContainer { 
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+._detail {
+    width: 50%;
+    height: 100%;
+}
+
+._detailImg {
+    width: 455px;
+    height: 492px;
+    margin-left: 100px;
+}
+
+._bio {
+    margin-top: 25px;
+}
+
+._bio,
+._bio1 {
+    font-family: 'Cabinet Grotesk';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 54px;
+    line-height: 67px;
+}
+
+._bio2 {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 32px;
+    margin-top: 17px;
+}
+
+.contactBtn {
+    width: 226px;
+    height: 56px;
+    background: linear-gradient(95.87deg, #D07C44 8.17%, #C6692B 99.98%);
+    border-radius: 16px;
+    border: none;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 37px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 38px;
+    cursor: pointer;
+}
+
+.contactBar {
+    width: 410px;
+    height: 40px;
+    margin-top: 95px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    border-top: 0.5px solid #FFFFFF;
+}
+
+._line1 {
+    width: 20px;
+    height: 1px;
+    background-color: #FFFFFF;
+}
+
+._p1 {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18.5714px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.logoBar {
+    width: 106px;
+    height: 18px;
+}
+
+.hireBtn {
+    display: none;
+    border: none;
+}
+
+._contactBar {
+    display: none;
+}
+
+@media only screen and (max-width: 1220px) {
+    ._bio,
+    ._bio1{
+        font-size: 44px;
+    }
+} 
+
+@media only screen and (max-width: 950px) {
+    .contactBar{
+        margin-top: 40px;
+    }
+
+    .contactBtn{
+        font-size: 22px;
+        width: 160px;
+    }
+} 
+
+@media only screen and (max-width: 600px) {
+
+    ._line {
+        width: 60px;
+        height: 2px;
+        margin-top: 49px;
+    }
+
+    ._bio,
+    ._bio1 {
+        width: 248px;
+        font-family: 'Cabinet Grotesk';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    ._bio2 {
+        width: 163px;
+        height: 38px;
+        font-family: 'Satoshi';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 19px;
+        margin-top: 6px;
+    }
+
+    .hireBtn {
+        display: block;
+        width: 110px;
+        height: 33px;
+        margin-top: 17px;
+        background: linear-gradient(95.87deg, #D07C44 8.17%, #C6692B 99.98%);
+        border-radius: 9.61513px;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+
+    .contactBar {
+        display: none;
+    }
+
+    .contactBtn {
+        display: none;
+    }
+
+    ._detailContainer {
+        flex-direction: column;
+    }
+
+    ._detailImg {
+        width: 199px;
+        height: 215px;
+        margin-top: 34px;
+        margin-left: 114px;
+    }
+
+    ._contactBarContainer {
+        width: 307px;
+        height: 39px;
+        display: flex;
+        align-items: flex-end;
+        border-top: 0.5px solid #FFFFFF;
+    }
+
+    ._contactBar {
+        display: block;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+    }
+}

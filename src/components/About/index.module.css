@@ -1,0 +1,125 @@
+.aboutContainer {
+    width: 100%;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    margin-top: 30px;
+}
+
+.aboutImageDesktop {
+    width: 388px;
+    height: 388px;
+}
+
+.aboutImageMobile {
+    display: none;
+}
+
+
+.aboutDetail h1 {
+    font-family: 'Cabinet Grotesk';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 75px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 21px;
+    margin-top: 40px;
+}
+
+.aboutDetail h1 span {
+    color: #D07C44;
+
+}
+
+.aboutDetail h2 {
+    font-family: 'Cabinet Grotesk';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 37px;
+    line-height: 47px;
+    letter-spacing: 0.14em;
+    margin-bottom: 20px;
+}
+
+
+.chatBtn {
+    width: 141px;
+    height: 43px;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 29px;
+    border: none;
+    color: #FFFFFF;
+    background: linear-gradient(95.87deg, #D07C44 8.17%, #C6692B 99.98%);
+    border-radius: 12px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 1050px) {
+
+    .aboutDetail {
+        padding-top: 20px;
+    }
+
+    .aboutDetail h1 {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+
+    .aboutDetail h2 {
+        font-size: 27px;
+        /* margin-bottom: unset; */
+    }
+
+    .aboutImageDesktop {
+        width: 300px;
+        height: 300px;
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+
+    .aboutImageMobile {
+        display: none;
+    }
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .aboutDetail h1 {
+        display: none;
+    }
+
+    .aboutDetail h2 {
+        font-size: 17px;
+        line-height: 21px;
+    }
+
+    .aboutDetail {
+        width: 100%;
+    }
+
+    .aboutImageDesktop {
+        display: none;
+    }
+
+    .aboutImageMobile {
+        display: block;
+        width: 161px;
+        height: 161px;
+    }
+
+    .chatBtn {
+        margin-top: 18px;
+    }
+}

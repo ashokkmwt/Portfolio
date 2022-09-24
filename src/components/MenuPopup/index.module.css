@@ -1,0 +1,47 @@
+.menuContainer {
+    width: 257px;
+    height: 520px;
+    background: linear-gradient(168.68deg, #D07C43 0.49%, #C66A2C 103.63%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding-left: 30px;
+}
+
+.closeBtn {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+.logo {
+    width: 116px;
+    height: 32px;
+    margin-top: 30px;
+    margin-bottom: 73px;
+} 
+
+
+.menu {
+    width: 143px;
+    height: auto;
+    border-bottom: 0.2px solid #222121;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+
+.menu p {
+    width: fit-content;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+    padding-bottom: 10px;
+}

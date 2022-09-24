@@ -1,0 +1,25 @@
+.headerContainer {
+    padding-left: 85px;
+    padding-right: 85px;
+}
+
+.mobileHeader {
+    display: none;
+}
+
+@media only screen and (max-width: 800px) {
+
+    .headerContainer {
+        padding-left: 27px;
+        padding-right: 27px;
+    }
+
+
+    .header {
+        display: none;
+    }
+
+    .mobileHeader {
+        display: block;
+    }
+}

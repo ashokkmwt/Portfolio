@@ -1,0 +1,256 @@
+.projectContainer {
+    width: 100%;
+    background-color: #1D1A18;
+    color: white;
+}
+
+._Header {
+    display: none;
+}
+
+.projectContainer h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 80px;
+    color: #C66A2D;
+    font-size: 2.2rem;
+    margin-bottom: 152px;
+}
+
+.projectContainer h1 span {
+    color: #FFFFFF;
+}
+
+.projectContainer p {
+    font-family: 'Satoshi';
+    font-style: normal;
+    width: 50%;
+    margin-top: 26px;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+._project1 {
+    width: 648px;
+    height: fit-content;
+    background-color: #121214;
+    border: 1.5px solid #FFFFFF;
+    border-radius: 24px;
+    padding: 50px;
+    margin-bottom: 80px;
+}
+
+
+._row {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+
+
+.ProjectBar1Container,
+.ProjectBar2Container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+._p {
+    width: 50%;
+    height: 100px;
+    background-color: green;
+}
+
+._dr1 {
+    display: flex;
+    flex-direction: row;
+    gap: 21px;
+    flex-wrap: wrap;
+    margin-bottom: 28px;
+}
+
+._sk {
+    flex-basis: 111px;
+    min-width: fit-content;
+    background: #D2D2D2;
+    border-radius: 8px;
+
+    font-family: 'Satoshi';
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 29px;
+    letter-spacing: 0.05em;
+
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+._head {
+    font-family: 'Cabinet Grotesk';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 54px;
+    letter-spacing: 0.05em;
+    margin-bottom: 17px;
+    color: #FFFFFF;
+}
+
+._mr {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 29px;
+    letter-spacing: 0.05em;
+    margin-bottom: 17px;
+}
+
+.skillVideo {
+    border-radius: 16px;
+    width: 100%;
+    height: 246px;
+}
+
+.skillVideo iframe {
+    width: 100%;
+    height: 100%;
+    border: 1px solid white;
+    border-radius: 16px;
+}
+
+._mt {
+    font-family: 'Satoshi';
+    font-weight: 500;
+    font-size: 21px;
+    letter-spacing: 0.05em;
+}
+
+.view {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 7px;
+    margin-top: 44px;
+}
+
+._fa {
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(180deg, #D07C43 0%, #C66A2D 100%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+._ln {
+    width: 20px;
+    height: 20px;
+}
+
+
+@media only screen and (max-width: 800px) {
+
+    .projectContainer {
+        padding-left: unset;
+        padding-right: unset;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Header {
+        display: none;
+    }
+
+    ._Header {
+        display: block;
+    }
+
+    .projectContainer h1 {
+        display: none;
+    }
+
+
+    .projectBottom {
+        margin-top: unset;
+        align-items: center;
+    }
+
+    ._project1 {
+        width: 340px;
+        margin-top: 22px;
+        padding: 25px;
+        border-radius: 12px;
+        margin-bottom: 23px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    ._row {
+        flex-direction: column;
+    }
+
+    ._sk {
+        flex-basis: 70px;
+        font-style: normal;
+        font-size: 11px;
+        line-height: 15px;
+    }
+
+    ._head {
+        font-size: 22px;
+        line-height: 28px;
+        margin-bottom: 9px;
+    }
+
+    ._mr {
+        font-size: 11px;
+        line-height: 15px;
+        margin-bottom: 8px;
+    }
+
+    .skillVideo {
+        width: 100%;
+        height: 126px;
+        border-radius: 8px;
+    }
+
+    .view {
+        margin-top: 22px;
+    }
+
+    ._mt {
+        font-size: 11px;
+        line-height: 15px;
+    }
+
+    ._fa {
+        width: 30px;
+        height: 30px;
+    }
+
+    ._ln {
+        width: 70%;
+        height: 70%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .projectContainer p {
+        width: 100%;
+    }
+
+    .projectBottom {
+        align-items: unset;
+    }
+}
