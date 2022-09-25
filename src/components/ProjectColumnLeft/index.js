@@ -13,13 +13,13 @@ export default function ProjectColumnLeft() {
 
                             {p.skills.map((skill, i) => <div key={i} className={styles._sk}>{skill}</div>)}
 
-                        </div>
+                        </div> 
                         <div className={styles._head}>{p.heading}</div>
                         <div className={styles._mr}>{p.description}</div>
                         <div className={styles.skillVideo}>
                             <iframe title={p.heading} src={p.video}></iframe>
                         </div>
-                        <div className={styles.view}>
+                        <div className={styles.view}> 
                             <p className={styles._mt}>View Project</p>
                             <div className={styles._fa}>
                                 <a className={styles._ln} href={p.projectLink} target='_blank' rel='noreferrer'>

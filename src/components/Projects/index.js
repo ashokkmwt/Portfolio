@@ -18,7 +18,7 @@ export default function Projects() {
                 </h1>
             </Animated>
             {width <= 800 &&
-                <p>Over the past few months, I've developed front-end project1s of various sizes and various stages to strengthen my skillset.<br />
+                <p className={styles.about}>Over the past few months, I've developed front-end project1s of various sizes and various stages to strengthen my skillset.<br />
                     Here are a few that I feel were the most challenging yet rewarding.
                 </p>
             }
