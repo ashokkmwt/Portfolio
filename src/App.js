@@ -4,6 +4,7 @@ import AboutPage from './pages/AboutPage'
 import ProjectPage from "./pages/ProjectPage";
 import SkillPage from './pages/SkillPage';
 
+
 function App() {
   return (
     <BrowserRouter>

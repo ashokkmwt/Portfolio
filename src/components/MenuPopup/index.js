@@ -24,7 +24,7 @@ export default function MenuPopup(props) {
 
       {pages.map((page, index) =>
         <div key={index} className={styles.menu}>
-          <p onClick={() => visit(page)}>{page}</p>
+          <p onClick={() => visit(page, index - 1)}>{page}</p>
         </div>
       )}
 

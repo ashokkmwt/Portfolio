@@ -8,7 +8,7 @@ export default function ProjectColumnRight() {
         <div className={styles.ProjectBar2Container}>
             {projectRight.map((p, index) => {
                 return (
-                    <div key={index} className={styles._project1}>
+                    <a key={index} className={styles._project1} href={p.projectLink} target='_blank' rel='noreferrer'>
 
                         <div className={styles._dr1}>
                             {p.skills.map((skill, i) => <div key={i} className={styles._sk}>{skill}</div>)}
@@ -22,12 +22,12 @@ export default function ProjectColumnRight() {
                         <div className={styles.view}>
                             <p className={styles._mt}>View Project</p>
                             <div className={styles._fa}>
-                                <a className={styles._ln} href={p.projectLink} target='_blank' rel='noreferrer'>
+                                <div className={styles._ln}>
                                     <img width="100%" height="100%" src={Vector} alt="vector" />
-                                </a>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </a>
                 )
             })}
         </div>

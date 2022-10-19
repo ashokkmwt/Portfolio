@@ -13,10 +13,6 @@ const tabs = [
         name: "skills",
         id: generateId()
     }
-    // {
-    //   name: "resume",
-    //   id: generateId()
-    // }
 ]
 
 export {

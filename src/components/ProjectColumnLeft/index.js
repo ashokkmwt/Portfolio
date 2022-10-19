@@ -8,26 +8,26 @@ export default function ProjectColumnLeft() {
         <div className={styles.ProjectBar1Container}>
             {projectLeft.map((p, index) => {
                 return (
-                    <div key={index} className={styles._project1}>
+                    <a key={index} className={styles._project1} href={p.projectLink} target='_blank' rel='noreferrer'>
                         <div className={styles._dr1}>
 
                             {p.skills.map((skill, i) => <div key={i} className={styles._sk}>{skill}</div>)}
 
-                        </div> 
+                        </div>
                         <div className={styles._head}>{p.heading}</div>
                         <div className={styles._mr}>{p.description}</div>
                         <div className={styles.skillVideo}>
                             <iframe title={p.heading} src={p.video}></iframe>
                         </div>
-                        <div className={styles.view}> 
+                        <div className={styles.view}>
                             <p className={styles._mt}>View Project</p>
                             <div className={styles._fa}>
-                                <a className={styles._ln} href={p.projectLink} target='_blank' rel='noreferrer'>
+                                <div className={styles._ln} >
                                     <img width="100%" height="100%" src={Vector} alt="vector" />
-                                </a>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </a>
                 )
             })}
         </div>

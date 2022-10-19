@@ -14,6 +14,13 @@ const projectLeft = [
         video: "https://www.loom.com/embed/5f0a5eef71834baa9c60d5315ac54f9d"
     },
     {
+        skills: ["HTML", "CSS", "ReactJS"],
+        heading: "Step-Indicator",
+        projectLink: "https://step-indicator.netlify.app/",
+        description: "Tried to create a simple responsive step indicator app.",
+        video: "https://www.loom.com/embed/5b29b6de711040328d443b93b90b6115"
+    },
+    {
         skills: ["HTML", "CSS"],
         heading: " Hubhopper Clone",
         projectLink: "https://hubhopper-clone.netlify.app/",

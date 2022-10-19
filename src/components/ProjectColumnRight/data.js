@@ -14,19 +14,19 @@ const projectRight = [
         video: "https://www.loom.com/embed/152f169faa48425f812b0a28fc6736de"
     },
     {
+        skills: ["HTML", "CSS", "JavaScript", "ReactJS", "Axios", "useEffect"],
+        heading: "Pagination Project",
+        projectLink: "https://project-pagination.netlify.app/",
+        description: "I have created a project related to pagination using dummy data API. Switching every page API is called.",
+        video: "https://www.loom.com/embed/654700734f8749709476c530c2d87e7a"
+    },
+    {
         skills: ["HTML", "CSS"],
         heading: "Fitness App",
         projectLink: "https://my-gym-fitness-app.netlify.app/",
         description: "This is just a UI.",
         video: "https://www.loom.com/embed/13e04eaeebcf482b810e80eca165b098"
-    },
-    // {
-    //     skills: ["HTML", "CSS", "JavaScript"],
-    //     heading: "Todo app 2",
-    //     projectLink: "",
-    //     description: "One of the biggest project1 I’ve ever taken up. Learnt a lot from executing this project1.",
-    //     video: ""
-    // }
+    }
 ]
 
 export {
