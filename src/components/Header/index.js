@@ -16,7 +16,7 @@ export default function Header() {
 
   const [menuPopup, setMenuPopup] = useState(false);
 
-  const [activeTab, setActiveTab] = useLocalStorage('tab', 20);
+  const [activeTab, setActiveTab, activeTabRemove] = useLocalStorage('tab', 20);
 
   const [activeTabName, setActiveTabName, activeTabNameRemove] = useLocalStorage('tabname', "home");
 
@@ -25,6 +25,7 @@ export default function Header() {
   const goBack = () => {
     navigate(`/`);
     activeTabNameRemove('tabname');
+    activeTabRemove("tab");
   }
 
   const visit = (tab, index) => {
@@ -33,16 +34,13 @@ export default function Header() {
       setActiveTabName(tab)
       setActiveTab(10);
       return;
-    }
-    // here we set index = 10 (in setActiveTab), because there is no tab on index = 10. It there will happen nothing by clicking on "home".
-
-    if (tab !== "resume") {
+    } else {
       setActiveTab(index);
       setActiveTabName(tab)
       navigate(`/${tab}`);
       return;
     }
-    setActiveTab(10);
+    // here we set index = 10 (in setActiveTab), because there is no tab on index = 10. There will happen nothing by clicking on "home".
   }
 
   return (
