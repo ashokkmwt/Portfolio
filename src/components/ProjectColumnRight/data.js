@@ -21,6 +21,13 @@ const projectRight = [
         video: "https://www.loom.com/embed/654700734f8749709476c530c2d87e7a"
     },
     {
+        skills: ["HTML", "CSS", "JavaScript", "ReactJS", "Axios"],
+        heading: "Recipe App",
+        projectLink: "https://recipe-gradients-app.netlify.app/",
+        description: "I have created a recipe project. Find your favorite recipe and related gradients.",
+        video: "https://www.loom.com/embed/8f72c2d445404860a996618c968eeff3"
+    },
+    {
         skills: ["HTML", "CSS"],
         heading: "Fitness App",
         projectLink: "https://my-gym-fitness-app.netlify.app/",
