@@ -4,6 +4,7 @@ import LinkedIn from '../../../assets/icons/LinkedIn.svg'
 import GitHub from '../../../assets/icons/GitHub.svg'
 import Twitter from '../../../assets/icons/Twitter.svg'
 import Instagram from '../../../assets/icons/Instagram.svg'
+import YouTube from '../../../assets/icons/ytPremium.svg'
 
 export default function ContactBar({ style }) {
 
@@ -11,7 +12,8 @@ export default function ContactBar({ style }) {
         { img: LinkedIn, link: "https://www.linkedin.com/in/devashok/" },
         { img: GitHub, link: "https://github.com/ashokkmwt" },
         { img: Twitter, link: "https://twitter.com/ASHOKKU77882283" },
-        { img: Instagram, link: "https://www.instagram.com/ashok_kumawat_1111/" }
+        { img: Instagram, link: "https://www.instagram.com/ashok_kumawat_1111/" },
+        { img: YouTube, link: "https://www.youtube.com/channel/UCE7EdV7BqofiPWoS33xW0tQ" }
     ];
 
     return (
